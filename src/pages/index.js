@@ -10,7 +10,7 @@ import "./home/home.scss"
 
 const IndexPage = () => (
   <Layout>
-       <Seo title="Home" />
+       <Seo title="Home | Software and Web Development" />
        <div className="main">
           <LandingMain />
        </div>
