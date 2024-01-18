@@ -1,0 +1,146 @@
+.footer{
+    background-color: #0D1B1B;
+    padding-top: 80px;
+    position: relative;
+   
+  
+    .footer-wrapper{
+        margin: 0 auto;
+        max-width: 1500px;
+        padding-bottom: 40px;
+        .row{
+            margin-right: 0px;
+            margin-left: 0px;
+            .col-sm-3{
+                @media(max-width: 575px){
+                    text-align: center;
+                }
+                .footer-content{
+                    p{
+                        color: #DADADA;
+                        font-size: 17px;
+                        font-family: Play, sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        text-align: left;
+                        margin-top: 41px;
+                        margin-bottom: 0;
+                    }
+                    ul.services{
+                        padding: 0px;
+                        li{
+                            list-style: none;
+                            line-height: 3;
+                            a{
+                                transition: all 0.3s ease-in-out;
+                                &:hover{
+                                    color:#00fbf3;
+                                }
+                            }
+                        }
+                    }
+                    ul.social{
+                        padding-left: 0px;
+                        padding-top: 20px;
+                        li{
+                            display: inline-flex;
+                            list-style: none;
+                            a{
+                                margin-right: 17px;
+                                -webkit-transition: all 0.3s ease-in-out;
+                                -moz-transition: all 0.3s ease-in-out;
+                                transition: all 0.3s ease-in-out; 
+                                
+                                    img{
+                                        width: 45px!important;
+                                    }
+
+                               
+                              
+                                
+                            }
+                           
+                            a:hover {
+                                opacity: 0.6;
+                            }
+                        }
+                        li.facebook{
+                            a{
+                                img{
+                                    width: 40px!important;
+                                    padding-top: 3px;
+                                }
+                            }
+                        }
+                        
+                    }
+                    h1{
+                            font-family: "Fira Sans Condensed", sans-serif;
+                            font-weight: 600;
+                            font-style: italic;
+                            font-size: 30px;
+                            color: #00fbf3;
+                            text-align: left;
+                            padding-bottom: 5px;
+                            padding-top: 5px;
+                            padding-bottom: 20px;
+                    }
+                    a{
+                        color: #DADADA;
+                        font-size: 17px;
+                        font-family: Play, sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        text-align: left;
+                        text-decoration: none;
+                        margin-top: -14px;
+                        display: block;
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            color:#00fbf3;
+                        }
+                        .fa{
+                            color: #00fbf4;
+                            padding-right: 10px;
+                        }
+                        .gatsby-image-wrapper.gatsby-image-wrapper-constrained{
+                            img{
+                                width: 150px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .col-sm-3.second{
+                .footer-content{
+                    h1{
+                        padding-bottom: 30px;
+                    }
+                    p{
+                        margin-top: 5px;
+                    }
+                }
+            }
+            .footer-content{
+                @media(max-width: 575px){
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+    .footer-copyright{
+        text-align: center;
+        color: #fff;
+       background-color: #010a0a;
+        padding: 15px;
+        margin-bottom: -2px;
+        margin-top: 20px;
+        p{
+            margin-bottom: 0px;
+            font-size: 12px;
+            font-family: Play, sans-serif;
+        }
+
+    }
+}

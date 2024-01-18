@@ -1,23 +1,19 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-
-
-const mainLogo = "../../../images/BelByte-Logo---color-.png"
-
+import ParticlesMain from "./particles";
 
 
 function LandingMain() {
 	return (
-
-        
         <div class="main-landing">
-             <StaticImage src={mainLogo}/>
-
-             <h1>Coming Soon.</h1>
-             <p>For inquiries contact <a href="mailto:support@belbytedesigns.com">support@belbytedesigns.com</a></p>
-        
-             <p>" The world of technology can be fast-paced and scary. <br />That's why our goal is to provide an experience that is tailored to your company's needs.<br /> No matter the budget, we pride ourselves on providing professional customer service. <br />We guarantee you will be satisfied with our work. "</p>
-
+           
+           <div className="hero-content">
+       
+              <span id="first">Unleash Your Business Potential and Don't go Unnoticed.</span><br />
+              <p> Imagine your business thriving in the digital world, easily discoverable by potential customers craving your products or services. We've got the perfect solution to make this vision a reality. Let's get your business online and watch the revenue roll in!</p>
+              <span id="second">We Craft Hassle-Free Websites to Connect You with Millions.<br />Boost Your Online Presence, Grow Revenue – Let's Make Waves Together!</span><br />
+             <br /> <a href="">Give us a Shout!</a>
+           </div>
         </div>
 
     );

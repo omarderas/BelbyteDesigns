@@ -16,8 +16,8 @@ const MainLogo = "../images/BelByte-Logo---color-.png";
 
 
 
-const Header = ({ siteTitle }) => (
-  <header>
+const ContentHeader = ({ siteTitle }) => (
+  <header id="header-main">
   <div class="header-content">
   <div class="site-header__logo">
                 <a class="site-header__logo-link" href="/">
@@ -164,7 +164,7 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-export default Header
+export default ContentHeader
 
 
 
