@@ -1,0 +1,192 @@
+body{
+    margin: 0!important;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+    background-position: center;
+    //background-size: cover;
+    background-position-y: -60px;
+    overflow-x: hidden;
+}
+
+
+
+div#___gatsby {
+    position: relative;
+   // background-image: url(../../images/clouds_top_left.png),url(../../images/clouds_top_right.png);
+    height: 100%;
+   // background-position: top left, top right;
+   // background-size: auto, auto, 0, 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,rgba(0,25,44,0.9)60%,rgba(0,25,44,0.4));
+}
+html {
+    //width: 100vw;
+    max-width: 100%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+ 
+}
+html::before {
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,25,44,0.6),rgba(0,25,44,0.6));
+}
+html::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #09cee1;
+    pointer-events: none;
+}
+
+
+*{
+   // border: 1px solid red;
+}
+@media(max-width: 991px){
+    header#desktop{
+        display: none;
+    }
+}
+@media(min-width: 992px){
+    header#mobile-header{
+        display: none;
+    }
+}
+
+@media(max-width: 400px){
+    .main .main-landing {
+
+        padding-top: 30%!important;
+
+    }
+    .main .main-landing .hero-content span#first {
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 25px!important;
+        color: rgb(255, 255, 255);
+    }
+    .main .services .row .col-sm-3 .front span{
+        display: none!important;
+    }
+    .main .services .row .col-sm-3{
+        margin-bottom: 20px;
+    }
+    .main .about-us .main-about {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 160px!important;
+        padding-bottom: 80px;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .main .about-us .main-about .row .col-sm-6 .about-cont h1 {
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 35px!important;
+        color: rgb(255, 255, 255);
+    }
+    .main .about-us .main-about .row .col-sm-6{
+        margin-top: 20px;
+    }
+    .main .about-us .main-about .row .col-sm-6 .about-cont h2.row {
+        padding-top: 40px!important;
+        padding-bottom: 20px!important;
+    }
+    .main .about-us .main-about .row .col-sm-6 .about-cont .row .col-sm-3 {
+        text-align: center;
+    }
+    .main .about-us .main-about .row .col-sm-6 .about-cont .row .col-sm-3 .gatsby-image-wrapper img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .main .get-quote .get-main .row .col-sm-6:nth-child(1){
+        display: none;
+    }
+    .main .get-quote .get-main .row{
+        margin: 0;
+    }
+    .main .get-quote .get-main .row .col-sm-6.second {
+        padding-top: 10px!important;
+        padding-bottom: 40px;
+    }
+    .main .why-us .why-main .row{
+        margin: 0;
+    }
+    .main .why-us .why-main .row.why-cont .col-sm-5.first .row .col-sm-10 {
+        padding: 0px;
+        text-align: left!important;
+    }
+    .main .why-us .why-main .row.why-cont .col-sm-5.first .row .col-sm-2{
+        display: none;
+    }
+    .main .why-us .why-main .row.why-cont .col-sm-5.first .row .col-sm-10 h1 {
+        text-align: left!important;
+    }
+    .main .why-us .why-main .row.why-cont .col-sm-5.first .row .col-sm-10 p {
+        text-align: left!important;
+    }
+    .main .why-us .why-main .row.why-cont .col-sm-5.second .row .col-sm-10 {
+        text-align: left;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .main .why-us .why-main .row.why-cont .col-sm-5.second .row .col-sm-2{
+        padding: 0;
+    }
+    .main .why-us .why-main {
+        max-width: 1500px;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 45px!important;
+    }
+    .main .why-us .why-main .row.why-cont {
+        padding-top: 0px!important;
+    }
+    .main .plans-main .plans-cont {
+        max-width: 1500px;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 45px!important;
+    }
+    .main .plans-main .plans-cont h1 {
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 40px!important;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding-bottom: 45px!important;
+    }
+    .main .plans-main .plans-cont .row .col-sm-4 .featured-cont .package-cont h1 {
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 35px!important;
+        color: #00fbf4;
+        text-align: center;
+        padding-bottom: 15px!important;
+    }
+}
+

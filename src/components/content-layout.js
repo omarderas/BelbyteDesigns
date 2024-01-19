@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import ContentHeader from "./header-content"
 import Footer from "./footer"
-
+import "./../less/main.scss";
 
 
 import { useStaticQuery, graphql } from "gatsby"

@@ -17,7 +17,7 @@ const MainLogo = "../images/BelByte-Logo---color-.png";
 
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header id="desktop">
   <div class="header-content">
   <div class="site-header__logo">
                 <a class="site-header__logo-link" href="/">

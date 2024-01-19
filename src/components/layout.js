@@ -1,9 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
+import HeaderMobile from "./header-mobile"
 import Footer from "./footer"
 
-
+import "./../less/main.scss";
 
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
   return (
     <>
        <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+       <HeaderMobile siteTitle={data.site.siteMetadata?.title || `Title`} />
         <div className="App">
       
             <div className="content">
