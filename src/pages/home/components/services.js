@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 const web = "../../../images/web-design.png"
-const hosting = "../../../images/HOSTING.png"
+const hosting = "../../../images/hosting.png"
 const seo = "../../../images/seo.png"
 const app = "../../../images/app-design.png"
 
