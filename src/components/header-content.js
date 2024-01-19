@@ -36,11 +36,11 @@ const ContentHeader = ({ siteTitle }) => (
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Why Belbyte</a>
+        <a class="nav-link" href="/about-us/">Why Belbyte</a>
       </li>
       
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/all-tours" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="/our-services/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
         <div class="dropdown-menu nav-tab" aria-labelledby="navbarDropdown">
@@ -52,7 +52,7 @@ const ContentHeader = ({ siteTitle }) => (
               <h5>Dedicated product team</h5>
               <span> make us largely responsible for the development of the entire project </span>
             </a>
-            <a href="https://content.merixstudio.com/insights/what-team-augmentation-and-how-benefit-it/?theme=how%20we%20work&__hstc=240508191.36024b7f43314c712944a44cc011b38e.1704517777575.1705010601485.1705013603931.5&__hssc=240508191.1.1705013603931&__hsfp=1654019965" class="sub-menu__wrapper-left-box">
+            <a href="/our-services/" class="sub-menu__wrapper-left-box">
             <Team />
               <h5>Team augmentation</h5>
               <span> add skilled technical resources to your in-house development team </span>
@@ -62,7 +62,7 @@ const ContentHeader = ({ siteTitle }) => (
             <h4 class="sub-menu__title"> core services </h4>
             <ul class="sub-menu__list">
               <li class="sub-menu__list-item">
-                <a href="/services/web-app-development/" class="sub-menu__list-item-url">
+                <a href="/our-services/" class="sub-menu__list-item-url">
                   <figure class="sub-menu__list-item-figure">
                     <Web />
                   </figure>
@@ -70,7 +70,7 @@ const ContentHeader = ({ siteTitle }) => (
                 </a>
               </li>
               <li class="sub-menu__list-item">
-                <a href="/services/mobile-app-development/" class="sub-menu__list-item-url">
+                <a href="/our-services/" class="sub-menu__list-item-url">
                   <figure class="sub-menu__list-item-figure">
                     <Mobile />
                  </figure>
@@ -78,7 +78,7 @@ const ContentHeader = ({ siteTitle }) => (
                 </a>
               </li>
               <li class="sub-menu__list-item">
-                <a href="/services/software-development-consulting/" class="sub-menu__list-item-url">
+                <a href="/contact-us/" class="sub-menu__list-item-url">
                   <figure class="sub-menu__list-item-figure">
                   <Quote />
                   </figure>
@@ -86,7 +86,7 @@ const ContentHeader = ({ siteTitle }) => (
                 </a>
               </li>
               <li class="sub-menu__list-item">
-                <a href="/services/product-design/" class="sub-menu__list-item-url">
+                <a href="/our-services/" class="sub-menu__list-item-url">
                   <figure class="sub-menu__list-item-figure">
                     <Design />
                   </figure>
@@ -99,13 +99,13 @@ const ContentHeader = ({ siteTitle }) => (
                 <h4 class="sub-menu__title sub-menu__title--bottom"> Dedicated Solutions </h4>
                 <ul>
                   <li>
-                    <a href="">Affordable Hosting</a>
+                    <a href="/our-services/">Affordable Hosting</a>
                   </li>
                   <li>
-                    <a href="">Email & Domains</a>
+                    <a href="/our-services/">Email & Domains</a>
                   </li>
                   <li>
-                    <a href="">IT Outsourcing</a>
+                    <a href="/our-services/">IT Outsourcing</a>
                   </li>
                 </ul>
               </div>
@@ -126,19 +126,19 @@ const ContentHeader = ({ siteTitle }) => (
  
      
       <li class="nav-item">
-        <a class="nav-link" href="">Our Work</a>
+        <a class="nav-link" href="/#our-work">Our Work</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Packages</a>
+        <a class="nav-link" href="/our-packages/">Packages</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Outsourcing</a>
+        <a class="nav-link" href="/outsourcing/">Outsourcing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Contact Us</a>
+        <a class="nav-link" href="/contact-us/">Contact Us</a>
       </li>
       <li class="nav-item estimate">
-        <a class="nav-link" href="">Get a Quote</a>
+        <a class="nav-link" href="/contact-us/">Get a Quote</a>
       </li>
     </ul>
    

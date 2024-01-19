@@ -27,19 +27,19 @@ function Footer() {
                 <h1>Our Services</h1>
                 <ul class="services">
                     <li>
-                        <a href="">Web Design & Development</a>
+                        <a href="/our-services/">Web Design & Development</a>
                     </li>
                     <li>
-                        <a href="">Domain Purchase and Transfers</a>
+                        <a href="/our-services/">Domain Purchase and Transfers</a>
                     </li>
                     <li>
-                        <a href="">Hosting Services</a>
+                        <a href="/our-services/">Hosting Services</a>
                     </li>
                     <li>
-                        <a href="">Email Providers</a>
+                        <a href="/our-services/">Email Providers</a>
                     </li>
                     <li>
-                        <a href="">SEO & Analytics</a>
+                        <a href="/our-services/">SEO & Analytics</a>
                     </li>
                 </ul>
                </div>
@@ -56,7 +56,7 @@ function Footer() {
                        <span>support@belbytedesigns.com</span> 
                        </a><br />
                     
-                       <a href="">
+                       <a href="/contact-us/">
                        <i class="fa fa-clock-o"></i>
                          <span>Mon - Sun, 8:00am to 5:00pm CST</span> 
                         </a>

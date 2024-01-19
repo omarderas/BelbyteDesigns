@@ -22,7 +22,7 @@ function Services() {
                         <div className="cont-main">
                             <h2>Web Design & Development</h2>
                             <p>We design and develop fully responsive custom websites (no purchased templates) based on your company needs.</p>
-                            <a href="">More Info</a>
+                            <a href="/our-services/">More Info</a>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ function Services() {
                         <div className="cont-main">
                             <h2>Web, Domain & Email Hosting</h2>
                             <p>We provide hosting for all our websites, as well as domain purchase, transfers, hosting and professional emails.</p>
-                            <a href="">More Info</a>
+                            <a href="/our-services/">More Info</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function Services() {
                         <div className="cont-main">
                             <h2>SEO & Analytics</h2>
                             <p>Our developed sites are fully equiped with all the tool to boost your Search results to increase sales.</p>
-                            <a href="">More Info</a>
+                            <a href="/our-services/">More Info</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function Services() {
                         <div className="cont-main">
                             <h2>IT Outsourcing</h2>
                             <p>If you don't have an IT team to maintian your system or perform any related task, we've got you covered - one of our agents can assist with no hassle.</p>
-                            <a href="">More Info</a>
+                            <a href="/our-services/">More Info</a>
                         </div>
                     </div>
                 </div>

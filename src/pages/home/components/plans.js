@@ -21,7 +21,7 @@ function Plans() {
                                 <p>Live Chat Feature</p>
                                 <p>Free Support</p>
                             </div>
-                            <a href="">Choose Plan</a>
+                            <a href="/contact-us/">Choose Plan</a>
                         </div>
                     </div>
                     <div className="col-sm-4">
@@ -39,7 +39,7 @@ function Plans() {
                                 <p>Free Support</p>
                                 <p>SEO & Analytics</p>
                             </div>
-                            <a href="">Choose Plan</a>
+                            <a href="/contact-us/">Choose Plan</a>
                         </div>
                     </div>
                     <div className="col-sm-4">
@@ -55,7 +55,7 @@ function Plans() {
                                 <p>Internal Systems Maintanance</p>
                                 <p>Digital Marketing Assistance</p>
                             </div>
-                            <a href="">Choose Plan</a>
+                            <a href="/contact-us/">Choose Plan</a>
                         </div>
                     </div>
                 </div>

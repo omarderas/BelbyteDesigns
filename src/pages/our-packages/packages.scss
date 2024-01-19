@@ -1,0 +1,242 @@
+.package-main{
+    margin: 0 auto;
+    max-width: 1400px;
+    //margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    position: relative;
+    p{
+        color: rgb(218, 218, 218);
+    font-size: 17px;
+    font-family: Play, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+   
+    }
+    a{
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(9, 206, 225);
+        padding: 10px;
+        font-size: 16px;
+        font-family: Play, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        transition: all 0.5s ease 0s;
+        background-color: rgb(9, 206, 225);
+       
+        &:hover{                          
+          border: 1px solid #fff;
+          background-image: unset;
+          text-decoration: none;
+        }
+      }
+
+      .plans-main{
+        position: relative;
+       // background-color: #010a0a;
+          .plans-overlay{
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            opacity: 0.2;
+            background-image: url("../../images/Overlay4.png");
+          }
+          .plans-cont{
+            max-width: 1500px;
+            margin: 0 auto;
+            position: relative;
+            padding-top: 120px;
+            padding-bottom: 80px;
+            h2{
+              color: #00fbf4;
+              font-size: 18px;
+              font-family: Play, sans-serif;
+              letter-spacing: 1px;
+              text-decoration: none;
+              font-style: italic;
+              text-align: center;
+            }
+            h1{
+              font-family: "Fira Sans Condensed", sans-serif;
+              font-weight: bold;
+              text-transform: uppercase;
+              font-size: 70px;
+              color: rgb(255, 255, 255);
+              text-align: center;
+              padding-bottom: 80px;
+              span{
+                color: #00fbf4;
+              }
+            }
+            .row{
+              max-width: 1300px;
+              margin: 0 auto;
+             
+              .col-sm-3{
+                .featured-cont{
+                  background-color: #0d1b1b;
+                  padding: 20px;
+                  text-align: center;
+                  position: relative;
+                  cursor: pointer;
+                  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+                  &:hover{
+                    box-shadow: 0px 0px 5px 2px rgba(1.000000000000003, 57, 55.00000000000001, 0.73);
+                  }
+                  .pack-overlay{
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+                    background-image: url("../../images/Background-23.png");
+                    background-position: -280px 0px;
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                      opacity: 0.5;
+                     // background-color: #0d1b1b;
+                  }
+                  .package-cont{
+                    h2{
+                      color: #fff;
+                    }
+                    h1{
+                      font-family: "Fira Sans Condensed", sans-serif;
+                      font-weight: bold;
+                      text-transform: uppercase;
+                      font-size: 40px;
+                      color: #00fbf4;
+                      text-align: center;
+                      padding-bottom: 15px;
+                    }
+                    p{
+                      color: #fff;
+                      font-size: 18px;
+                      font-family: Play, sans-serif;
+                      letter-spacing: 1px;
+                      text-decoration: none;
+                      text-align: center;
+                    }
+                  }
+                  a{
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgb(0, 251, 244);
+                    padding: 10px;
+                    font-size: 16px;
+                    font-family: Play, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    transition: all 0.5s ease 0s;
+                    margin-top: 30px;
+                    display: block;
+                    position: relative;
+                    &:hover{
+                      text-decoration: none;
+                      color:rgb(0, 251, 244);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+
+}
+
+.header-text{
+    h1{
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+    
+    }
+}
+
+.package {
+   @media(max-width: 992px){
+    margin-top: 0px;
+   }
+ 
+  
+}
+
+.package {
+    position: relative;
+   // margin-top: 28px;
+    text-align: center;
+    background-color: #010a0a;
+    //padding-bottom: 40px;
+    .package-overlay{
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        
+        background-image: url("../../images/Background-21.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.3;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+}
+.package .header-image {
+    position: relative;
+}
+.package .header-image .header-overlay {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: #0d1b1b;
+    opacity: 0.9;
+    height: 100%;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    z-index: 9;
+}
+.package .header-image img {
+    width: 100%;
+}
+.package .header-image .header-text {
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    bottom: 40px;
+    margin: 0 auto;
+}
+.package .header-image .header-text h1 {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    span{
+        color: #00fbf3;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .package .header-image .header-text h1 {
+    font-size: 100px !important;
+}
+}
+@media (max-width: 767px){
+    .package.header-image .header-text h1 {
+    font-size: 60px !important;
+}
+}

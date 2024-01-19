@@ -1,0 +1,128 @@
+.outsourcing-main{
+    margin: 0 auto;
+    max-width: 1400px;
+    //margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    position: relative;
+    p{
+        color: rgb(218, 218, 218);
+    font-size: 17px;
+    font-family: Play, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 40px;
+    }
+    a{
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(9, 206, 225);
+        padding: 10px;
+        font-size: 16px;
+        font-family: Play, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        transition: all 0.5s ease 0s;
+        background-color: rgb(9, 206, 225);
+       
+        &:hover{                          
+          border: 1px solid #fff;
+          background-image: unset;
+          text-decoration: none;
+        }
+      }
+
+
+}
+
+.header-text{
+    h1{
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+    
+    }
+}
+
+.outsourcing {
+   @media(max-width: 992px){
+    margin-top: 0px;
+   }
+ 
+  
+}
+
+.outsourcing {
+    position: relative;
+   // margin-top: 28px;
+    text-align: center;
+    background-color: #010a0a;
+    //padding-bottom: 40px;
+    .outsourcing-overlay{
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        
+        background-image: url("../../images/Background-21.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.3;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+}
+.outsourcing .header-image {
+    position: relative;
+}
+.outsourcing .header-image .header-overlay {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: #0d1b1b;
+    opacity: 0.9;
+    height: 100%;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    z-index: 9;
+}
+.outsourcing .header-image img {
+    width: 100%;
+}
+.outsourcing .header-image .header-text {
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    bottom: 40px;
+    margin: 0 auto;
+}
+.outsourcing .header-image .header-text h1 {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    span{
+        color: #00fbf3;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .outsourcing .header-image .header-text h1 {
+    font-size: 100px !important;
+}
+}
+@media (max-width: 767px){
+    .outsourcing .header-image .header-text h1 {
+    font-size: 60px !important;
+}
+}
