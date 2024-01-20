@@ -1,16 +1,18 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Leading providers of website services in Belize, offering a dynamic blend of creativity and technical expertise. Our team of skilled freelancers excels in crafting visually stunning websites, providing unbeatable hosting solutions, implementing effective SEO strategies, and offering reliable IT outsourcing services.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jose Urbina",
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
     "gatsby": "^5.11.0",
+    "gatsby-plugin-google-gtag": "^5.13.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
     "gatsby-plugin-sass": "^6.11.0",
     "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-plugin-sitemap": "^6.13.0",
     "gatsby-source-filesystem": "^5.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
@@ -25,7 +27,7 @@
     "prettier": "^2.8.8"
   },
   "keywords": [
-    "gatsby"
+    "Belize web design, Website development, bel, belize cheap websites, free websites, website providers in belize, best websites in belize, Hosting services in belize, belize Hosting services, best tourist websites in belize, tourism websites in belize, tourism in belize, Freelance web designers, Website maintenance in belize"
   ],
   "license": "0BSD",
   "scripts": {

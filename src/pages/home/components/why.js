@@ -49,7 +49,7 @@ function WhyUs() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-2">
+                    <div className="col-sm-2 middle">
 
                     </div>
                     <div className="col-sm-5 second">

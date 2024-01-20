@@ -11,7 +11,7 @@ function About() {
             <div class="about-overlay"></div>
            <div className="main-about">
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-6 first">
                     <div className="about-cont">
                         <h2>Get to Know Us</h2>
                         <h1>Welcome to <br /> <span>Belbyte Designs</span></h1>
@@ -19,7 +19,7 @@ function About() {
                         <a href="/about-us/" className="link">Read More</a>
                     </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 first">
                     <div className="about-cont">
                       <div className="row secondary">
                         <div className="col-sm-6">

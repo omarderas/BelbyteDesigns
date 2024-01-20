@@ -1,4 +1,4 @@
-import "./../less/header.scss";
+import "./../less/header-content.scss";
 
 import * as React from "react"
 import { Link } from "gatsby"
@@ -17,7 +17,7 @@ const MainLogo = "../images/BelByte-Logo---color-.png";
 
 
 const ContentHeader = ({ siteTitle }) => (
-  <header id="header-main">
+  <header id="header-content-desktop">
   <div class="header-content">
   <div class="site-header__logo">
                 <a class="site-header__logo-link" href="/">
@@ -45,17 +45,17 @@ const ContentHeader = ({ siteTitle }) => (
         </a>
         <div class="dropdown-menu nav-tab" aria-labelledby="navbarDropdown">
         <section class="sub-menu__wrapper">
-          <div class="sub-menu__wrapper--left">
-            <h4 class="sub-menu__title"> models of cooperation </h4>
-            <a href="" class="sub-menu__wrapper-left-box">            
+        <div class="sub-menu__wrapper--left">
+            <h4 class="sub-menu__title"> models of Operation </h4>
+            <a href="/about-us/" class="sub-menu__wrapper-left-box">            
               <Dedicated />
-              <h5>Dedicated product team</h5>
-              <span> make us largely responsible for the development of the entire project </span>
+              <h5>Dedicated Product Team</h5>
+              <span> makes us largely responsible for the development of the entire project </span>
             </a>
-            <a href="/our-services/" class="sub-menu__wrapper-left-box">
+            <a href="/about-us/" class="sub-menu__wrapper-left-box">
             <Team />
-              <h5>Team augmentation</h5>
-              <span> add skilled technical resources to your in-house development team </span>
+              <h5>We are a Team of Freelancers</h5>
+              <span> this makes us operate differently reason our prices are unbeatable! </span>
             </a>
           </div>
           <div class="sub-menu__wrapper--right">

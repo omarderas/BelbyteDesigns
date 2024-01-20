@@ -1,6 +1,6 @@
 
 
-header#mobile-header {
+header#header-content-mobile {
     .navbar-light .navbar-toggler-icon {
        // background-image: url(../images/mobile-nav.png);
       
@@ -169,10 +169,10 @@ padding-bottom: 0px;
     }
     .navbar-light .navbar-nav .nav-link {
         color: #fff;
-        font-size: 17px;
-        font-family: "Play", sans-serif;
-        letter-spacing: 2px;
-        text-decoration: none;
+    font-size: 16px;
+    font-family: "Play", sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
     }
     .mr-auto, .mx-auto {
         margin-right: unset!important;
@@ -221,10 +221,10 @@ padding-bottom: 0px;
        background-image: linear-gradient(rgba(0, 25, 44, 0.6), rgba(0, 25, 44, 0.6));
        a.dropdown-item{
         color: #fff;
-    font-size: 16px;
-    font-family: "Play", sans-serif;
-    letter-spacing: 1px;
-    text-decoration: none;
+        font-size: 16px;
+        font-family: "Play", sans-serif;
+        letter-spacing: 1px;
+        text-decoration: none;
        }
        .dropdown-item:hover, .dropdown-item:focus{
         background-color: unset!important;

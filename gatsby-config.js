@@ -9,13 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Belbyte Designs LLC`,
-    description: `Responsive Website Development and Design, Mobile App and Software Architecture Development, Hosting and Email providers and Website Support Company in Belize.] `,
+    title: `Belbyte Designs`,
+    description: `Leading providers of website services in Belize, offering a dynamic blend of creativity and technical expertise. Our team of skilled freelancers excels in crafting visually stunning websites, providing unbeatable hosting solutions, implementing effective SEO strategies, and offering reliable IT outsourcing services.`,
     author: `Jose Urbina`,
     siteUrl: `https://belbytedesigns.com`,
+    keywords: `Belize web design, Website development, bel, belize cheap websites, free websites, website providers in belize, best websites in belize, Hosting services in belize, belize Hosting services, best tourist websites in belize, tourism websites in belize, tourism in belize, Freelance web designers, Website maintenance in belize`,
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,6 +25,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {                             
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+          trackingIds: ['G-MZ64N4Y355'],
+          pluginConfig: {
+            head: true
+          },
+        },
+      },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,

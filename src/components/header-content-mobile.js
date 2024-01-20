@@ -1,5 +1,5 @@
 
-import "./../less/header-mobile.scss";
+import "./../less/header-content-mobile.scss";
 
 import * as React from "react"
 import { Link } from "gatsby"
@@ -10,8 +10,8 @@ const MainLogo = "../images/BelByte-Logo---color-.png";
 
 
 
-const HeaderMobile = ({ siteTitle }) => (
-  <header id="mobile-header">
+const HeaderContentMobile = ({ siteTitle }) => (
+  <header id="header-content-mobile">
     <div className="top-bar row">
       <div className="contents">
       <div className="col-sm-6">
@@ -36,7 +36,7 @@ const HeaderMobile = ({ siteTitle }) => (
       </a>
     </li>
     <li>
-      <a href="https://www.instagram.com/upsidedowntoursbz/" target="_blank">
+      <a href="" target="_blank">
     
       </a>
     </li>
@@ -54,7 +54,7 @@ const HeaderMobile = ({ siteTitle }) => (
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <ul class="navbar-nav mr-auto">
+  <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -101,6 +101,6 @@ const HeaderMobile = ({ siteTitle }) => (
   </header>
 )
 
-export default HeaderMobile
+export default HeaderContentMobile
 
 

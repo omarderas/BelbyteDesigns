@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import ContentHeader from "./header-content"
+import HeaderContentMobile from "./header-content-mobile"
 import Footer from "./footer"
 import "./../less/main.scss";
 
@@ -23,6 +24,7 @@ const ContentLayout = ({ children }) => {
 
   return (
     <>
+    <HeaderContentMobile siteTitle={data.site.siteMetadata?.title || `Title`} />
        <ContentHeader siteTitle={data.site.siteMetadata?.title || `Title`} />
         <div className="App">
       

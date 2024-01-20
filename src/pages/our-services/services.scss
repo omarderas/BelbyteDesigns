@@ -46,6 +46,7 @@
       }
     .row{
         padding-bottom: 30px;
+        margin: 0;
         .col-sm-4{
             .service-cont{
             background-color: #000000B0;
@@ -162,11 +163,26 @@
 }
 @media (min-width: 768px) and (max-width: 991px){
     .service .header-image .header-text h1 {
-    font-size: 100px !important;
+    font-size: 50px !important;
 }
 }
 @media (max-width: 767px){
     .service .header-image .header-text h1 {
     font-size: 60px !important;
+}
+}
+
+@media (max-width: 767px){
+.service .header-image .header-text h1 {
+    font-size: 23px !important;
+}
+.service .header-image .header-text {
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    bottom: 6px;
+    margin: 0 auto;
 }
 }

@@ -1,6 +1,6 @@
 
 
-header#desktop {
+header#header-content-desktop{
     position: relative;
     z-index: 11;
     overflow: visible;
@@ -557,15 +557,15 @@ width: 75%;
 .st0{fill:none;stroke:#09cee1;stroke-width:1.38;stroke-linecap:round;stroke-linejoin:round;}
 .st01{fill:#09cee1;}
 .dropdown-menu {
- //display: block;
+ // display: block;
 }
 }
-header#header-main {
+header#header-content-desktop {
     background-color: #000!important;
 }
 
 @media(min-width: 992px) and (max-width: 1199px){
-    header#desktop .nav-tab {
+    header#header-content-desktop .nav-tab {
         position: absolute;
         top: 100%;
         
@@ -578,23 +578,22 @@ header#header-main {
 }
 
 @media(min-width: 992px) and (max-width: 1530px){
-    header#desktop .navbar .navbar-collapse ul.navbar-nav.mr-auto {
+    header#header-content-desktop .navbar .navbar-collapse ul.navbar-nav.mr-auto {
         height: 100%;
         margin: 0 auto!important;
     }
 }
 @media(min-width: 992px) and (max-width: 1063px){
-    header#desktop .nav-tab {
+    header#header-content-desktop .nav-tab {
         position: absolute;
         top: 100%;
         left: -387%!important;
     }
 }
 @media(min-width: 1064px) and (max-width: 1530px){
-    header#desktop .nav-tab {
+    header#header-content-desktop .nav-tab {
         position: absolute;
         top: 100%;
         left: -317%!important;
     }
 }
-

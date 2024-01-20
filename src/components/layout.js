@@ -24,8 +24,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+       
        <HeaderMobile siteTitle={data.site.siteMetadata?.title || `Title`} />
+       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
         <div className="App">
       
             <div className="content">
