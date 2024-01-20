@@ -63,11 +63,11 @@ const HeaderContentMobile = ({ siteTitle }) => (
       </li>
       
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/all-tours" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Our Tours
+        <a class="nav-link dropdown-toggle" href="/our-services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="/our-services">Services</a>
+        <a class="dropdown-item" href="/our-services">All Services</a>
         <a class="dropdown-item" href="/our-services">Web Design & Development</a>
         <a class="dropdown-item" href="/our-services">Hosting</a>
         <a class="dropdown-item" href="/our-services">Email Service</a>
