@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const UDT = "../../../images/UDT-Main-Logo.avif"
 const golden = "../../../images/golden.png"
 const inland = "../../../images/inland.png"
-const yesbelize = "../../../images/yes-belize-logo-main.avif"
+const yesbelize = "../../../images/cbtga-new.png"
 
 function About() {
 	return (
@@ -34,10 +34,20 @@ function About() {
                       </div>
                       <h2 className="row">Our Most Recent Work:</h2>
                       <div className="row">
-                        
+                      <div className="col-sm-3">
+                                    <a href="">
+                                      <StaticImage src={yesbelize} />
+                                    </a>
+                                </div>
                                 <div className="col-sm-3">
                                     <a href="https://upsidedowntours.com/" target="_blank">
                                       <StaticImage src={UDT} />
+                                    </a>
+                                </div>
+                                
+                                <div className="col-sm-3">
+                                    <a href="https://www.belizeinlandtours.com/" target="_blank">
+                                      <StaticImage src={inland} />
                                     </a>
                                 </div>
                                 <div className="col-sm-3">
@@ -45,16 +55,7 @@ function About() {
                                       <StaticImage src={golden} />
                                     </a>
                                 </div>
-                                <div className="col-sm-3">
-                                    <a href="https://www.belizeinlandtours.com/" target="_blank">
-                                      <StaticImage src={inland} />
-                                    </a>
-                                </div>
-                                <div className="col-sm-3">
-                                    <a href="https://yesbelize.com/" target="_blank">
-                                      <StaticImage src={yesbelize} />
-                                    </a>
-                                </div>
+                               
                         </div>
                     </div>
                 </div>
