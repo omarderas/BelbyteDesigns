@@ -35,13 +35,13 @@ function About() {
                       <h2 className="row">Our Most Recent Work:</h2>
                       <div className="row">
                       <div className="col-sm-3">
-                                    <a href="">
+                                    <a href="https://cavebranchtours.com/" target="_blank">
                                       <StaticImage src={yesbelize} />
                                     </a>
                                 </div>
                                 <div className="col-sm-3">
-                                    <a href="https://upsidedowntours.com/" target="_blank">
-                                      <StaticImage src={UDT} />
+                                    <a href="https://dgoldentours.com/" target="_blank">
+                                      <StaticImage src={golden} />
                                     </a>
                                 </div>
                                 
@@ -50,9 +50,10 @@ function About() {
                                       <StaticImage src={inland} />
                                     </a>
                                 </div>
+                              
                                 <div className="col-sm-3">
-                                    <a href="https://dgoldentours.com/" target="_blank">
-                                      <StaticImage src={golden} />
+                                    <a href="https://upsidedowntours.com/" target="_blank">
+                                      <StaticImage src={UDT} />
                                     </a>
                                 </div>
                                
