@@ -3,6 +3,8 @@ import { StaticImage } from "gatsby-plugin-image"
 const UDT = "../../../images/UDT-Main-Logo.avif"
 const golden = "../../../images/golden.png"
 const inland = "../../../images/inland.png"
+const patrick = "../../../images/patrick-tours-main.png"
+const spring = "../../../images/SpringWay-Pools-llc-logo.png"
 const yesbelize = "../../../images/cbtga-new.png"
 
 function About() {
@@ -34,7 +36,17 @@ function About() {
                       </div>
                       <h2 className="row">Our Most Recent Work:</h2>
                       <div className="row">
-                      <div className="col-sm-3">
+                                <div className="col-sm-3">
+                                    <a href="" >
+                                      <StaticImage src={patrick} />
+                                    </a>
+                                </div>
+                                <div className="col-sm-3">
+                                    <a href="" >
+                                      <StaticImage src={spring} />
+                                    </a>
+                                </div>
+                                <div className="col-sm-3">
                                     <a href="https://cavebranchtours.com/" target="_blank">
                                       <StaticImage src={yesbelize} />
                                     </a>
