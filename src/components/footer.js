@@ -63,12 +63,12 @@ function Footer() {
                         
                         <ul className="social">
                             <li>
-                                <a href="">
+                                <a href="https://www.instagram.com/belbytedesignsbz/" target="_blank">
                                     <StaticImage src={Insta} />
                                 </a>
                             </li>
                             <li class="facebook">
-                                <a href="">
+                                <a href="https://www.facebook.com/people/Belbyte-Designs/61553362371309/" target="_blank">
                                 <StaticImage src={FB} />
                                 </a>
                             </li>

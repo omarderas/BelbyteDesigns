@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const UDT = "../../../images/UDT-Main-Logo.avif"
 const golden = "../../../images/golden.png"
 const inland = "../../../images/inland.png"
-const patrick = "../../../images/patrick-tours-main.png"
+const patrick = "../../../images/patrick-tours-new -logo-transparent.png"
 const spring = "../../../images/SpringWay-Pools-llc-logo.png"
 const yesbelize = "../../../images/cbtga-new.png"
 
@@ -42,7 +42,7 @@ function About() {
                                     </a>
                                 </div>
                                 <div className="col-sm-3">
-                                    <a href="" >
+                                    <a href="https://springwaypoolsllc.com/" target="_blank">
                                       <StaticImage src={spring} />
                                     </a>
                                 </div>
