@@ -37,7 +37,7 @@ function About() {
                       <h2 className="row">Our Most Recent Work:</h2>
                       <div className="row">
                                 <div className="col-sm-3">
-                                    <a href="" >
+                                    <a href="https://patricktourbelize.com/" target="_blank" >
                                       <StaticImage src={patrick} />
                                     </a>
                                 </div>
