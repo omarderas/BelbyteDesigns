@@ -11,8 +11,14 @@ body{
 }
 @media(max-width: 1530px){
     body{
+        overflow-y: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
+        margin:0;
         overflow-x: hidden;
     }
+    html {
+        overflow-x: hidden;
+      }
 }
 
 
