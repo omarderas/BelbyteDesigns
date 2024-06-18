@@ -6,6 +6,9 @@ const inland = "../../../images/inland.png"
 const patrick = "../../../images/patrick-tours-new -logo-transparent.png"
 const spring = "../../../images/SpringWay-Pools-llc-logo.png"
 const yesbelize = "../../../images/cbtga-new.png"
+const wildland = "../../../images/wba-logoMain.png"
+const dking = "../../../images/dking-logo.png"
+const yes = "../../../images/yes-belize-logo-main.avif"
 
 function About() {
 	return (
@@ -46,9 +49,22 @@ function About() {
                                       <StaticImage src={spring} />
                                     </a>
                                 </div>
+
+                               
+                                <div className="col-sm-3">
+                                    <a href="https://wildlandbelizeadventures.com/" target="_blank">
+                                      <StaticImage src={wildland} />
+                                    </a>
+                                </div>
+
                                 <div className="col-sm-3">
                                     <a href="https://cavebranchtours.com/" target="_blank">
                                       <StaticImage src={yesbelize} />
+                                    </a>
+                                </div>
+                                <div className="col-sm-3">
+                                    <a href="https://dkingadventures.com/" target="_blank" >
+                                      <StaticImage src={dking} />
                                     </a>
                                 </div>
                                 <div className="col-sm-3">
@@ -66,6 +82,11 @@ function About() {
                                 <div className="col-sm-3">
                                     <a href="https://upsidedowntours.com/" target="_blank">
                                       <StaticImage src={UDT} />
+                                    </a>
+                                </div>
+                                <div className="col-sm-3">
+                                    <a href="https://yesbelize.com/" target="_blank">
+                                      <StaticImage src={yes} />
                                     </a>
                                 </div>
                                
